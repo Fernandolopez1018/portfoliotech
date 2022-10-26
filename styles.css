@@ -1,0 +1,275 @@
+body { 
+    background-color: lightblue;
+    letter-spacing: .05rem;
+    
+  }
+#img {
+  height: 300px;
+  width: 300px;
+}
+#imgcert {
+  height: 100px;
+  width: 100px;
+}
+
+#intro {
+  
+  background-color: rgb(165, 176, 207);
+  border-radius: 25px;
+  align-self: center;
+  box-shadow: 5px 10px #888888;
+}
+
+#aboutme {
+  
+  background-color: rgb(165, 176, 207);
+  border-radius: 25px;
+  align-self: center;
+  box-shadow: 5px 10px #888888;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  padding: 5px;
+}
+
+.group {
+  
+  padding: 10px;
+}
+
+.pic{
+    height: 100%;
+    width: 100%;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.item {
+    flex: 1;
+    margin: 10px;
+    
+}
+
+h2.item {
+  text-align: center;
+}
+h3.item{
+  text-align: center;
+}
+
+ol.item {
+  text-align: center;
+  list-style: none;
+}
+
+div ul{
+  display: flex;
+  
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-between;
+  
+}
+
+form {
+  text-align: center;
+}
+/* project section */
+#projectssection{
+  color: white;
+  text-align: center;
+  background-color: #0B1C51;
+}
+
+#projectssection a{
+  color: palegoldenrod;
+}
+
+#projectssection a:hover{
+  color: greenyellow;
+}
+
+/* for nav */
+
+body {
+  margin: 0;
+}
+
+header{
+  background-color: #0B1C51;
+  color: white;
+  margin-bottom: 40px;
+}
+
+header h1{
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 48px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  padding-bottom: 20px;
+
+}
+
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+
+header nav ul li a:hover {
+  /* Targets the change when a user hovers over the anchor tag 
+     (link) within the list items within the unordered list that 
+     is within the nav that is within the header. */
+  color: #bdbdbd;
+}
+
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+
+
+    .pic{
+    
+      display: flex;
+      justify-content: center;
+      height: 300px;
+      width: 300px;
+    }
+    .group {
+        display: flex;
+      flex-direction: row;
+
+    }
+
+    /* for nav */
+    header{
+      display: flex;
+      padding-left: 0 30px;
+      justify-content: space-around;
+
+    }
+
+    header h1{
+      padding-top: 0;
+      margin: 14px 0;
+      font-size: 52px;
+
+    }
+
+    header nav{
+      padding-top: 8px;
+    }
+
+    /* for social links list*/
+    div ul{
+      flex-direction: column;
+      justify-content: space-around;
+    
+      padding-right: 50px;
+    }
+  }
+  font-size: 48px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  padding-bottom: 20px;
+
+}
+
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+
+header nav ul li a:hover {
+  /* Targets the change when a user hovers over the anchor tag 
+     (link) within the list items within the unordered list that 
+     is within the nav that is within the header. */
+  color: #bdbdbd;
+}
+
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 600px) {
+
+    
+
+    .pic{
+    
+      display: flex;
+      justify-content: center;
+      height: 300px;
+      width: 300px;
+    }
+    .group {
+        display: flex;
+      flex-direction: column;
+
+    }
+    .groupRow {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+    }
+    /* for nav */
+    header{
+      display: flex;
+      padding-left: 0 30px;
+      justify-content: space-around;
+
+    }
+
+    header h1{
+      padding-top: 0;
+      margin: 14px 0;
+      font-size: 52px;
+
+    }
+
+    header nav{
+      padding-top: 8px;
+    }
+
+    /* for social links list*/
+    div ul{
+      flex-direction: column;
+      justify-content: space-around;
+    
+      padding-right: 50px;
+    }
+  }
+
+
+.imgSize{
+  height: 300px;
+  width: 300px;
+}
